@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Website With Login & Registeration | Rishi</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link  rel="icon" type="image/jpg" href="sicon.webp"  >
+        <title>sportfy</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       
+
+        <header>
+            <h2 class="logo">
+                <ion-icon name="logo-flickr"></ion-icon>
+            </h2>
+            <nav class="navigation">
+                <button class="btnLogin-popup">LOGIN</button>
+
+            </nav>
+        </header>
+
+        <div class="wrapper">
+            <span class="icon-close">
+                <ion-icon name="close-outline"></ion-icon>
+            </span>
+
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action = '#'>
+                    <div class="input-box">
+                        <span class="icon"  style="color: aliceblue;"><ion-icon name="mail-unread-outline"></ion-icon></span>
+                        <input type="email"  style="color: aliceblue;" required>
+                        <label style="color: aliceblue;">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"  style="color: aliceblue;"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <input type="password" style="color: aliceblue;" required>
+                        <label  style="color: aliceblue;">Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Remember me</label>
+                       
+                    </div>
+                    <button type="submit"class="btn"  style="color: aliceblue;"><a   style="color: aliceblue;"href="sportyfy.html">Login</a></button>
+                    <div class="login-register">
+                        <p>Dont have any account?<a
+                            href="#" class="register-link" style="color: aliceblue;">Register
+                        </a></p>
+                    </div>
+                </form>
+            </div>
+               <div class="form-box register">
+                <h2>Registeration</h2>
+                <form action = '#'>
+                    <div class="input-box">
+                        <span class="icon"  style="color: aliceblue;">
+                            <ion-icon name="person-circle-outline"></ion-icon>
+                        </span>
+                        <input type="text"  style="color: aliceblue;"required>
+                        <label  style="color: aliceblue;">Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"  style="color: aliceblue;"><ion-icon name="mail-unread-outline"></ion-icon></span>
+                        <input type="email" style="color: aliceblue;" required>
+                        <label  style="color: aliceblue;">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"  style="color: aliceblue;"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <input type="password" style="color: aliceblue;" required>
+                        <label style="color: aliceblue;">Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label  style="color: aliceblue;"><input type="checkbox"> I agree to the terma & conditions</label>
+                    </div>
+                    <button type="submit"class="btn"  style="color: aliceblue;">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account?
+                            <br><br>
+                            <a href="#" class="login-link"  style="color: aliceblue;">Login
+                        </a></p>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        
+        <script src="script.js" async defer></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

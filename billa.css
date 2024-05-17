@@ -1,0 +1,15 @@
+
+h1::first-letter{
+    color: aqua;
+}
+h1{
+    text-align: center;
+    background-color: blue;
+}
+p{
+    color: black;
+    text-align: center;
+}
+.audio1{
+    padding-left: 175px;
+}
